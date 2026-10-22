@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>FARM-SENSE X | किसान AI साथी</title>
+  <meta name="theme-color" content="#15803d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- SPLASH SCREEN ANIMATION -->
+  <div id="splash-screen" class="splash-container">
+    <div class="splash-content">
+      <div class="splash-logo-circle">
+        <span class="splash-emoji">🌾</span>
+      </div>
+      <h1 class="splash-title">FARM-SENSE X</h1>
+      <p class="splash-tagline" id="splash-tagline">किसान AI साथी • Smart Agro Expert</p>
+      <div class="splash-loader">
+        <div class="splash-progress-bar"></div>
+      </div>
+      <p class="splash-status-text" id="splash-status-text">🛰️ उपग्रह मौसम और AI लोड हो रहा है...</p>
+    </div>
+  </div>
+
+  <!-- MAIN APP CONTAINER -->
+  <div class="app-viewport">
+    
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-icon">🌱</div>
+        <div>
+          <h1 class="brand-title">FARM-SENSE X</h1>
+          <p class="brand-subtitle" id="hdr-subtitle">v2.5 किसान सलाहकार</p>
+        </div>
+      </div>
+      <!-- Language Switch Pill -->
+      <button class="lang-toggle-btn" id="btn-lang-toggle" title="भाषा बदलें / Switch Language">
+        <span class="globe-icon">🌐</span>
+        <span id="lang-label" class="lang-text">English में देखें</span>
+      </button>
+    </header>
+
+    <!-- Main Scrollable Screen Area -->
+    <main class="app-main">
+
+      <!-- ======================================================== -->
+      <!-- SCREEN 1: LEFT TAB - ADVISORY & FIELD SCOUTING           -->
+      <!-- ======================================================== -->
+      <section id="screen-home" class="screen-view active">
+        
+        <!-- Live Weather Telemetry Widget -->
+        <div class="card weather-card">
+          <div class="card-header-row">
+            <span class="card-tag" id="tag-weather">🛰️ उपग्रह लाइव मौसम</span>
+            <span class="time-stamp" id="weather-source">Open-Meteo GPS</span>
+          </div>
+          
+          <div class="location-search-row">
+            <input type="text" id="city-input" placeholder="गांव या शहर का नाम लिखें" value="Multai" class="city-box">
+            <button class="btn-refresh" id="btn-sync-weather" title="मौसम अपडेट करें">🔄</button>
+          </div>
+
+          <div class="weather-metrics-grid">
+            <div class="metric-box">
+              <span class="metric-label" id="lbl-temp">🌡️ तापमान</span>
+              <span class="metric-val" id="metric-temp">28.8°C</span>
+              <span class="metric-sub" id="metric-apparent">महसूस: 31°C</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-label" id="lbl-wind">💨 हवा की गति</span>
+              <span class="metric-val" id="metric-wind">0.9 m/s</span>
+              <span class="metric-sub" id="metric-wind-kmh">3.3 km/h (हल्की हवा)</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-label" id="lbl-humidity">💧 नमी</span>
+              <span class="metric-val" id="metric-humidity">42%</span>
+              <span class="metric-sub" id="metric-rain">बारिश: 0.0 mm</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-label" id="lbl-drift">🍃 बहाव जोखिम</span>
+              <span class="metric-val text-success" id="metric-drift">6.4%</span>
+              <span class="metric-sub" id="metric-weather-status">साफ मौसम</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Field Scouting Form Card -->
+        <div class="card form-card">
+          <div class="card-header-row">
+            <span class="card-tag" id="tag-field">📋 खेत की स्थिति</span>
+            <span class="form-badge" id="badge-standard">ICAR / USDA मानक</span>
+          </div>
+
+          <div class="input-field-group">
+            <label class="field-title" id="lbl-farmer-name">👤 किसान का नाम</label>
+            <input type="text" id="farmer-name-input" placeholder="Farmer XYZ" class="input-text" value="Farmer XYZ">
+          </div>
+
+          <div class="input-field-group">
+            <label class="field-title" id="lbl-crop-stage">🌱 फसल और अवस्था</label>
+            <div class="dual-row">
+              <select id="crop-select" class="dropdown-select">
+                <option value="Wheat" selected>🌾 गेहूं (Wheat)</option>
+                <option value="Maize">🌽 मक्का (Maize)</option>
+                <option value="Rice">🍚 धान (Rice)</option>
+                <option value="Cotton">🌱 कपास (Cotton)</option>
+                <option value="Vegetables">🥦 सब्जियां (Vegetables)</option>
+                <option value="Other">🪴 अन्य (Other)</option>
+              </select>
+              <select id="stage-select" class="dropdown-select">
+                <option value="Early">शुरुआती (Early)</option>
+                <option value="Mid" selected>फूल/मध्य (Mid-Bloom)</option>
+                <option value="Late">पकाई (Late)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Soil Feel Moisture -->
+          <div class="input-field-group">
+            <div class="label-with-tip">
+              <label class="field-title" id="lbl-soil">🏜️ मिट्टी की नमी (छूकर परखें)</label>
+              <span class="tip-badge">USDA Method</span>
+            </div>
+            <div class="pill-selector" data-group="Soil_feel" id="group-soil">
+              <button class="pill-btn" data-val="Wet" id="pill-soil-wet">💦 गीली (47%)</button>
+              <button class="pill-btn active" data-val="Normal" id="pill-soil-normal">✨ सामान्य (35%)</button>
+              <button class="pill-btn" data-val="Dry" id="pill-soil-dry">🍂 सूखी (22%)</button>
+              <button class="pill-btn" data-val="Hard-Dry" id="pill-soil-hard">🧱 कठोर सूखी (10%)</button>
+            </div>
+          </div>
+
+          <!-- Insects Observed -->
+          <div class="input-field-group">
+            <label class="field-title" id="lbl-insects">🐛 कीट / कीड़े की संख्या</label>
+            <div class="pill-selector" data-group="Insects_seen" id="group-insects">
+              <button class="pill-btn" data-val="None" id="pill-ins-none">🚫 कोई नहीं</button>
+              <button class="pill-btn active" data-val="Few" id="pill-ins-few">⚠️ कुछ जगह</button>
+              <button class="pill-btn" data-val="Many" id="pill-ins-many">🚨 बहुत ज्यादा</button>
+              <button class="pill-btn" data-val="Not sure" id="pill-ins-not-sure">❓ पक्का नहीं</button>
+            </div>
+          </div>
+
+          <!-- Leaf Foliar Condition -->
+          <div class="input-field-group">
+            <label class="field-title" id="lbl-leaf">🍃 पत्तों की हालत</label>
+            <div class="pill-selector" data-group="Leaf_condition" id="group-leaf">
+              <button class="pill-btn" data-val="Leaves normal" id="pill-leaf-normal">🌿 स्वस्थ</button>
+              <button class="pill-btn active" data-val="Spots / color change" id="pill-leaf-spots">🟡 धब्बे/पीलापन</button>
+              <button class="pill-btn" data-val="Holes / eaten" id="pill-leaf-holes">🕳️ कटे/छिद्र</button>
+              <button class="pill-btn" data-val="Curled leaves" id="pill-leaf-curled">🌀 मुड़े हुए</button>
+            </div>
+          </div>
+
+          <!-- Field Landholding Size -->
+          <div class="input-field-group">
+            <label class="field-title" id="lbl-field-size">📐 खेत का आकार</label>
+            <div class="pill-selector" data-group="Field_size" id="group-field-size">
+              <button class="pill-btn" data-val="Small" id="pill-size-sm">🏡 छोटा (&lt;1 Ha)</button>
+              <button class="pill-btn active" data-val="Medium" id="pill-size-med">🚜 मध्यम (1-3 Ha)</button>
+              <button class="pill-btn" data-val="Large" id="pill-size-lg">🌾 बड़ा (&gt;3 Ha)</button>
+            </div>
+          </div>
+
+          <!-- Target Pest Dropdown -->
+          <div class="input-field-group">
+            <label class="field-title" id="lbl-disease">🔬 लक्षित बीमारी / कीट</label>
+            <select id="disease-select" class="dropdown-select">
+              <option value="Tomato___Spider_mites Two-spotted_spider_mite">🍅 टमाटर - मकड़ी कीट (Spider Mites)</option>
+              <option value="Tomato___Early_blight">🍅 टमाटर - अगेती झुलसा (Early Blight)</option>
+              <option value="Maize___Common_rust">🌽 मक्का - रतुआ (Common Rust)</option>
+              <option value="Maize___Leaf_Blight">🌽 मक्का - पत्ता झुलसा (Leaf Blight)</option>
+              <option value="Potato___Late_blight">🥔 आलू - पछेती झुलसा (Late Blight)</option>
+              <option value="aphids">🐛 माहू / चेपा (Aphids)</option>
+              <option value="army worm">🐛 सैनिक कीट / इल्ली (Army Worm)</option>
+              <option value="Unknown" selected>🔍 सामान्य निरीक्षण (General / Not Sure)</option>
+            </select>
+          </div>
+
+          <button id="btn-run-analysis" class="btn-primary-action">
+            <span id="btn-run-text">⚡ AI जांच शुरू करें</span>
+          </button>
+        </div>
+
+        <!-- RESULT CARD -->
+        <div id="result-card-container" class="card result-card" style="display:none;">
+          <div class="card-header-row">
+            <span class="card-tag" id="tag-advice">🌾 किसान सलाह पत्र</span>
+            <span class="cci-chip" id="res-cci-badge">विश्वसनीयता: 81%</span>
+          </div>
+
+          <div class="decision-hero">
+            <div class="decision-icon" id="res-action-icon">🎯</div>
+            <div>
+              <h2 class="decision-title" id="res-final-action">निगरानी और पैच उपचार</h2>
+              <p class="decision-sub" id="res-action-sub">पूरे खेत में नहीं, केवल ग्रसित भाग में छिड़काव करें</p>
+            </div>
+          </div>
+
+          <div class="recommendation-box">
+            <div class="rec-title" id="title-timeline">⏰ समय सारिणी:</div>
+            <div class="rec-item"><span id="lbl-spray-window">🕒 छिड़काव का सही समय:</span> <strong id="res-spray-window">10:00 AM -- 4:00 PM</strong></div>
+            <div class="rec-item"><span id="lbl-next-check">🔍 अगला निरीक्षण:</span> <strong id="res-next-check">36--48 घंटे बाद</strong></div>
+          </div>
+
+          <div class="pesticide-box">
+            <div class="rec-title" id="title-prescription">🧪 सटीक दवा और खुराक (Kaggle 132-Pest DB):</div>
+            <div class="pest-detail-row">
+              <span class="p-tag" id="lbl-pest-target">🎯 लक्ष्य:</span> <strong id="res-pest-target">Spider Mites</strong>
+            </div>
+            <div class="pest-detail-row">
+              <span class="p-tag" id="lbl-pest-chem">💊 रासायनिक दवा:</span> <span id="res-pest-chem">Abamectin 1.8% EC</span>
+            </div>
+            <div class="pest-detail-row">
+              <span class="p-tag" id="lbl-pest-dose">⚖️ सही खुराक:</span> <span id="res-pest-dose">1 ml प्रति लीटर पानी</span>
+            </div>
+            <div class="pest-detail-row">
+              <span class="p-tag" id="lbl-pest-organic">🌿 जैविक उपाय:</span> <span id="res-pest-organic">नीम तेल (5 ml प्रति लीटर)</span>
+            </div>
+            <div class="pest-detail-row">
+              <span class="p-tag" id="lbl-pest-safety">⚠️ सुरक्षा नियम:</span> <span id="res-pest-safety">मुंह पर मास्क लगाएं, मवेशियों को दूर रखें।</span>
+            </div>
+          </div>
+
+          <div class="reasons-box">
+            <div class="rec-title" id="title-reasons">💡 AI निर्णय का कारण:</div>
+            <ul id="res-reasons-list" class="reasons-bullet-list">
+              <li>खेत में कीड़े की सक्रियता देखी गई</li>
+            </ul>
+          </div>
+
+          <button id="btn-view-receipt" class="btn-primary-action" style="margin-top:10px;">
+            <span id="btn-view-receipt-text">📜 डिजिटल परामर्श पर्ची देखें व प्रिंट करें</span>
+          </button>
+        </div>
+
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- SCREEN 2: CENTRE TAB - LIVE CAMERA & LEAF AI SCANNER    -->
+      <!-- ======================================================== -->
+      <section id="screen-camera" class="screen-view">
+        <div class="card vision-scan-card" style="margin-bottom:0;">
+          <div class="card-header-row">
+            <span class="card-tag" id="tag-vision">📸 पत्ती रोग AI स्कैनर (LEAF SCAN)</span>
+            <span class="form-badge">Triple-CNN Ensemble (95.2%)</span>
+          </div>
+          
+          <p class="vision-subtitle" id="desc-vision">रोगग्रस्त पत्ती की फोटो लाइव कैमरे से लें या फोन से अपलोड करें। प्रशिक्षित AI मॉडल तुरंत घाव स्कैन करेगा:</p>
+
+          <!-- Native Hidden Inputs -->
+          <input type="file" id="camera-file-input" accept="image/*" capture="environment" style="display:none;">
+          <input type="file" id="gallery-file-input" accept="image/*" style="display:none;">
+
+          <!-- Camera Trigger Grid -->
+          <div class="scan-action-grid">
+            <button id="btn-open-camera" class="btn-scan-action primary-cam">
+              <span class="scan-icon">📷</span>
+              <span id="btn-cam-text" class="scan-label-main">लाइव कैमरा शुरू करें</span>
+              <span class="scan-label-sub">Take Live Photo</span>
+            </button>
+            <button id="btn-open-gallery" class="btn-scan-action alt">
+              <span class="scan-icon">🖼️</span>
+              <span id="btn-gal-text" class="scan-label-main">गैलरी से चुनें</span>
+              <span class="scan-label-sub">Upload from Files</span>
+            </button>
+          </div>
+
+          <!-- Live Scanning Viewport Preview -->
+          <div id="image-preview-area" class="image-preview-wrapper" style="display:none;">
+            <div class="preview-img-container">
+              <img id="leaf-preview-img" src="" alt="Leaf preview" class="leaf-img-element">
+              <div class="scan-overlay-anim" id="scan-overlay"></div>
+            </div>
+            
+            <div id="vision-result-badge" class="vision-status-chip">
+              <div class="detected-info-col">
+                <span class="det-title" id="lbl-det-title">पहचानी गई बीमारी / Detected Pathogen:</span>
+                <span id="vision-detected-name" class="det-name">Tomato - Spider Mites</span>
+              </div>
+              <span id="vision-detected-conf" class="conf-tag">95.2%</span>
+            </div>
+
+            <!-- Quick Auto-Fill Action -->
+            <button id="btn-apply-vision" class="btn-apply-vision">
+              <span>✅ इस बीमारी को मुख्य फॉर्म में लगाएं (Apply to Form)</span>
+            </button>
+          </div>
+
+          <!-- Feature Description Cards -->
+          <div class="cam-tips-card">
+            <div class="tip-title">💡 सही फोटो लेने के टिप्स (Best Scan Tips):</div>
+            <ul class="cam-tips-list">
+              <li>पत्ती को साफ रोशनी (सूरज की रोशनी) में रखें।</li>
+              <li>कैमरा पत्ती के रोगग्रस्त धब्बों के करीब (10-15 cm) रखें।</li>
+              <li>फोटो धुंधली न हो, फोकस पत्ती की सतह पर रखें।</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================================================== -->
+      <!-- SCREEN 3: RIGHT TAB - 132 PESTICIDES KNOWLEDGE BASE     -->
+      <!-- ======================================================== -->
+      <section id="screen-pests" class="screen-view">
+        <div class="card pest-vault-card">
+          <div class="card-header-row">
+            <span class="card-tag" id="tag-pests-hdr">🧪 132 कीट एवं दवा भंडार</span>
+            <span class="form-badge">132 Verified Pests</span>
+          </div>
+          
+          <p class="section-desc" id="desc-pests">Kaggle प्रमाणित 132 कृषि कीटों, उनकी रासायनिक दवाओं, मानक खुराक और जैविक विकल्पों की पूरी डायरेक्टरी:</p>
+          
+          <!-- Live Filter Bar -->
+          <div class="search-filter-wrap">
+            <input type="text" id="pest-search-box" placeholder="कीट का नाम खोजें (e.g. aphid, army worm, borer)..." class="city-box">
+            <span class="pest-counter-badge" id="pest-counter">132 / 132</span>
+          </div>
+
+          <!-- Categories Quick Filter Chips -->
+          <div class="filter-chips-row">
+            <button class="f-chip active" data-filter="all">सभी (All 132)</button>
+            <button class="f-chip" data-filter="worm">इल्ली / Worms</button>
+            <button class="f-chip" data-filter="aphid">माहू / Aphids</button>
+            <button class="f-chip" data-filter="borer">छेदक / Borers</button>
+            <button class="f-chip" data-filter="beetle">बीटल / Beetles</button>
+          </div>
+
+          <!-- 132 Verified Species List Container -->
+          <div id="pest-search-results" class="pest-result-list">
+            <!-- Dynamically populated from all_pesticides.json -->
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Mobile App Navigation Bar (Left: Advisory, Centre: Camera, Right: Pesticides) -->
+    <nav class="app-bottom-nav">
+      <button class="nav-item active" data-target="screen-home">
+        <span class="nav-icon">🌾</span>
+        <span class="nav-label" id="nav-advisory">सलाह (Advisory)</span>
+      </button>
+      
+      <!-- Centre Hero Camera Tab -->
+      <button class="nav-item nav-camera-center" data-target="screen-camera">
+        <div class="center-cam-bubble">
+          <span class="nav-icon cam-pulse-icon">📷</span>
+        </div>
+        <span class="nav-label" id="nav-camera">स्कैन (Scan)</span>
+      </button>
+
+      <button class="nav-item" data-target="screen-pests">
+        <span class="nav-icon">🧪</span>
+        <span class="nav-label" id="nav-pesticides">दवाएं (Pesticides)</span>
+      </button>
+    </nav>
+
+  </div>
+
+  <!-- PROFESSIONAL DIGITAL AGRO-PRESCRIPTION MODAL -->
+  <div id="receipt-modal" class="receipt-modal-backdrop" style="display:none;">
+    <div class="receipt-paper">
+      
+      <!-- Receipt Header -->
+      <div class="rcpt-header">
+        <div class="rcpt-logo">🌱</div>
+        <div class="rcpt-title-area">
+          <h2 class="rcpt-brand">FARM-SENSE X</h2>
+          <p class="rcpt-sub" id="rcpt-sub-text">डिजिटल किसान परामर्श पर्ची • Digital Agro Prescription</p>
+        </div>
+        <button id="btn-close-receipt" class="rcpt-close-btn">&times;</button>
+      </div>
+
+      <!-- Receipt Meta Bar -->
+      <div class="rcpt-meta-grid">
+        <div><strong>👤 <span id="rcpt-meta-farmer-lbl">किसान</span>:</strong> <span id="rcpt-farmer">Farmer XYZ</span></div>
+        <div><strong>📍 <span id="rcpt-meta-city-lbl">स्थान</span>:</strong> <span id="rcpt-city">Multai</span></div>
+        <div><strong>🌱 <span id="rcpt-meta-crop-lbl">फसल</span>:</strong> <span id="rcpt-crop">Wheat (Mid)</span></div>
+        <div><strong>📅 <span id="rcpt-meta-date-lbl">दिनांक</span>:</strong> <span id="rcpt-date">15-Oct-2026</span></div>
+      </div>
+
+      <!-- Weather Telemetry Bar -->
+      <div class="rcpt-weather-bar">
+        <span>🛰️ <strong id="rcpt-live-lbl">लाइव मौसम</strong>: <span id="rcpt-weather">28.8°C | हवा: 0.9 m/s | बहाव जोखिम: 6.4%</span></span>
+      </div>
+
+      <!-- Core Recommendation Box -->
+      <div class="rcpt-action-card">
+        <div class="rcpt-action-tag" id="rcpt-tag-action">अनुशंसित कार्य / Action</div>
+        <h3 class="rcpt-action-name" id="rcpt-action-val">Monitor & Spot-Treat</h3>
+        <p class="rcpt-action-desc" id="rcpt-action-desc">पूरे खेत में नहीं, केवल ग्रसित भाग में छिड़काव करें</p>
+        <div class="rcpt-badge-row">
+          <span class="rcpt-pill" id="rcpt-cci">विश्वसनीयता: 81%</span>
+          <span class="rcpt-pill" id="rcpt-window">समय: 10:00 AM - 4:00 PM</span>
+        </div>
+      </div>
+
+      <!-- Prescription Table -->
+      <div class="rcpt-table-wrap">
+        <table class="rcpt-table">
+          <thead>
+            <tr>
+              <th id="th-target">लक्षित कीट / Target</th>
+              <th id="th-chemical">रासायनिक दवा / Chemical</th>
+              <th id="th-dose">खुराक / Dose</th>
+              <th id="th-organic">जैविक उपाय / Organic</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="rcpt-tbl-target">Spider Mites</td>
+              <td id="rcpt-tbl-chem">Abamectin 1.8% EC</td>
+              <td id="rcpt-tbl-dose">1 ml / Litre</td>
+              <td id="rcpt-tbl-organic">Neem Oil (5ml/L)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Safety & Reasons -->
+      <div class="rcpt-notes-box">
+        <p><strong>⚠️ <span id="rcpt-safety-lbl">सुरक्षा नियम</span>:</strong> <span id="rcpt-safety-val">मुंह पर मास्क लगाएं; छिड़काव के बाद 48 घंटे तक मवेशियों को दूर रखें।</span></p>
+        <p style="margin-top:4px;"><strong>💡 <span id="rcpt-reason-lbl">कारण</span>:</strong> <span id="rcpt-reason-val">कीट की उपस्थिति और पत्ती पर धब्बे देखे गए।</span></p>
+      </div>
+
+      <!-- Stamp & Watermark Footer -->
+      <div class="rcpt-footer">
+        <div class="rcpt-qr">🌾 VERIFIED BY AI</div>
+        <div class="rcpt-seal">
+          <span class="seal-text">FARM-SENSE X</span>
+          <span class="seal-sub">GOVT ICAR / USDA ALIGNED</span>
+        </div>
+      </div>
+
+      <!-- Print & Download Buttons -->
+      <div class="rcpt-button-group">
+        <button id="btn-print-receipt" class="btn-print">🖨️ <span id="btn-print-lbl">प्रिंट / PDF सेव करें</span></button>
+        <button id="btn-download-txt" class="btn-txt">📥 <span id="btn-txt-lbl">.TXT फाइल डाउनलोड</span></button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

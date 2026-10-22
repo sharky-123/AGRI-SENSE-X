@@ -1,0 +1,201 @@
+date,time,crop,crop_stage,soil,water,insects,leaf,wind,weather,field_size,action,confidence
+2025-11-21,12:29 AM,Vegetables,Late,Wet,Normal,None,Curled leaves,Light,Cloudy,Small,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Other,Early,Normal,Normal,Many,Leaves normal,Light,Not sure,Small,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Rice,Mid,Dry,Normal,None,Holes / eaten,Light,Clear,Large,Monitor & Spot-Treat,0.54
+2025-11-21,12:29 AM,Cotton,Late,Normal,Normal,Few,Holes / eaten,No wind,Heavy rain,Small,No Spray - Monitor,0.21
+2025-11-21,12:29 AM,Wheat,Mid,Hard-Dry,Low,Many,Holes / eaten,Light,Cloudy,Large,Spray (patch only),0.9
+2025-11-21,12:29 AM,Rice,Early,Dry,Low,Many,Spots / color change,Strong,Cloudy,Large,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Maize,Early,Normal,Low,Many,Leaves normal,No wind,Cloudy,Small,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Rice,Early,Dry,Very low,Not sure,Curled leaves,Strong,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Early,Hard-Dry,Low,Few,Spots / color change,Strong,Cloudy,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Late,Normal,Normal,Many,Curled leaves,Light,Heavy rain,Large,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Other,Early,Hard-Dry,Too much,None,Leaves normal,Strong,Clear,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Mid,Normal,Low,Many,Leaves normal,No wind,Clear,Large,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Wheat,Late,Dry,Low,Many,Leaves normal,No wind,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Mid,Dry,Low,Few,Spots / color change,Strong,Cloudy,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Other,Early,Dry,Low,Not sure,Holes / eaten,Strong,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Other,Early,Normal,Very low,Many,Spots / color change,No wind,Clear,Large,Spray (patch only),0.8
+2025-11-21,12:29 AM,Rice,Late,Wet,Low,Not sure,Spots / color change,Light,Light rain,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Cotton,Mid,Normal,Very low,Few,Curled leaves,No wind,Clear,Medium,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Other,Late,Wet,Too much,Many,Leaves normal,No wind,Not sure,Medium,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Other,Early,Normal,Low,None,Holes / eaten,Strong,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Early,Normal,Very low,None,Leaves normal,Light,Clear,Large,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Maize,Mid,Normal,Very low,Few,Spots / color change,Light,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Early,Hard-Dry,Too much,None,Curled leaves,Light,Not sure,Large,Monitor & Spot-Treat,0.52
+2025-11-21,12:29 AM,Maize,Early,Wet,Too much,Many,Leaves normal,No wind,Clear,Small,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Wheat,Mid,Wet,Low,Few,Leaves normal,Light,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Early,Normal,Normal,None,Spots / color change,Strong,Cloudy,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Mid,Normal,Too much,Not sure,Curled leaves,Strong,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Early,Dry,Normal,Many,Spots / color change,No wind,Clear,Large,Spray (patch only),0.8
+2025-11-21,12:29 AM,Wheat,Mid,Normal,Normal,Not sure,Holes / eaten,No wind,Cloudy,Medium,Monitor & Spot-Treat,0.54
+2025-11-21,12:29 AM,Wheat,Early,Normal,Low,Not sure,Spots / color change,No wind,Cloudy,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Wheat,Early,Normal,Too much,Many,Spots / color change,Light,Not sure,Large,Spray (patch only),0.8
+2025-11-21,12:29 AM,Wheat,Mid,Dry,Normal,Few,Spots / color change,Strong,Not sure,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Mid,Normal,Too much,Many,Holes / eaten,No wind,Cloudy,Small,Spray (patch only),0.88
+2025-11-21,12:29 AM,Vegetables,Mid,Dry,Low,Few,Curled leaves,Light,Cloudy,Small,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Rice,Late,Normal,Low,None,Spots / color change,Light,Light rain,Large,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Rice,Late,Hard-Dry,Too much,None,Curled leaves,No wind,Clear,Medium,Monitor & Spot-Treat,0.52
+2025-11-21,12:29 AM,Wheat,Mid,Dry,Low,Not sure,Holes / eaten,Light,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Early,Wet,Very low,None,Spots / color change,No wind,Light rain,Small,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Rice,Late,Wet,Too much,Not sure,Holes / eaten,Strong,Cloudy,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Early,Wet,Very low,None,Leaves normal,Light,Clear,Small,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Vegetables,Mid,Hard-Dry,Very low,Few,Curled leaves,Strong,Not sure,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Late,Dry,Normal,Many,Holes / eaten,Strong,Light rain,Large,No Spray - Monitor,0.25
+2025-11-21,12:29 AM,Cotton,Mid,Wet,Very low,Not sure,Holes / eaten,Strong,Light rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Mid,Hard-Dry,Very low,None,Spots / color change,No wind,Clear,Large,Monitor & Spot-Treat,0.52
+2025-11-21,12:29 AM,Rice,Early,Hard-Dry,Too much,Many,Spots / color change,No wind,Heavy rain,Large,No Spray - Monitor,0.24
+2025-11-21,12:29 AM,Vegetables,Mid,Normal,Low,Many,Spots / color change,Strong,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Mid,Wet,Normal,Few,Holes / eaten,Light,Heavy rain,Small,No Spray - Monitor,0.21
+2025-11-21,12:29 AM,Other,Mid,Dry,Very low,Many,Holes / eaten,Light,Clear,Small,Spray (patch only),0.88
+2025-11-21,12:29 AM,Wheat,Mid,Dry,Low,Many,Holes / eaten,No wind,Not sure,Small,Spray (patch only),0.88
+2025-11-21,12:29 AM,Wheat,Mid,Hard-Dry,Very low,None,Leaves normal,Strong,Cloudy,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Mid,Normal,Low,Not sure,Curled leaves,Light,Light rain,Small,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Cotton,Late,Wet,Very low,Few,Holes / eaten,No wind,Cloudy,Small,Spray (patch only),0.78
+2025-11-21,12:29 AM,Cotton,Early,Wet,Too much,Not sure,Holes / eaten,No wind,Light rain,Small,Monitor & Spot-Treat,0.54
+2025-11-21,12:29 AM,Other,Mid,Wet,Too much,Not sure,Leaves normal,No wind,Clear,Medium,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Rice,Mid,Wet,Normal,Few,Leaves normal,No wind,Clear,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Cotton,Early,Normal,Very low,None,Curled leaves,Strong,Light rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Late,Wet,Very low,None,Spots / color change,Strong,Cloudy,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Other,Late,Hard-Dry,Too much,None,Leaves normal,No wind,Not sure,Small,No Spray - Monitor,0.32
+2025-11-21,12:29 AM,Rice,Late,Dry,Very low,Not sure,Curled leaves,Light,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Late,Wet,Very low,Many,Curled leaves,Strong,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Early,Normal,Low,None,Leaves normal,No wind,Not sure,Large,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Vegetables,Mid,Wet,Too much,Not sure,Leaves normal,Strong,Clear,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Early,Wet,Low,Few,Leaves normal,Strong,Clear,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Mid,Wet,Low,Many,Leaves normal,Strong,Clear,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Late,Normal,Low,Not sure,Curled leaves,Strong,Cloudy,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Late,Hard-Dry,Normal,Few,Holes / eaten,Strong,Clear,Small,No Spray - Monitor,0.23
+2025-11-21,12:29 AM,Other,Mid,Wet,Too much,None,Curled leaves,Light,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Early,Wet,Very low,Few,Holes / eaten,Light,Cloudy,Large,Spray (patch only),0.78
+2025-11-21,12:29 AM,Vegetables,Early,Hard-Dry,Very low,Not sure,Leaves normal,Light,Clear,Large,No Spray - Monitor,0.32
+2025-11-21,12:29 AM,Cotton,Late,Dry,Low,None,Holes / eaten,Strong,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Other,Late,Wet,Low,None,Curled leaves,Light,Light rain,Large,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Cotton,Late,Wet,Very low,Many,Holes / eaten,Strong,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Late,Wet,Very low,Not sure,Leaves normal,Strong,Not sure,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Late,Normal,Normal,None,Curled leaves,Strong,Not sure,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Late,Wet,Low,Many,Holes / eaten,Strong,Clear,Small,No Spray - Monitor,0.25
+2025-11-21,12:29 AM,Cotton,Late,Hard-Dry,Low,Not sure,Spots / color change,Strong,Cloudy,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Other,Mid,Wet,Too much,None,Holes / eaten,No wind,Light rain,Small,Monitor & Spot-Treat,0.54
+2025-11-21,12:29 AM,Maize,Late,Dry,Normal,None,Leaves normal,Light,Clear,Small,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Vegetables,Late,Normal,Normal,Many,Leaves normal,No wind,Light rain,Medium,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Maize,Late,Hard-Dry,Very low,Not sure,Holes / eaten,No wind,Light rain,Small,Spray (patch only),0.72
+2025-11-21,12:29 AM,Rice,Mid,Normal,Very low,None,Curled leaves,No wind,Not sure,Small,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Rice,Early,Dry,Too much,Many,Leaves normal,Light,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Early,Dry,Too much,Many,Holes / eaten,No wind,Heavy rain,Large,No Spray - Monitor,0.25
+2025-11-21,12:29 AM,Vegetables,Late,Dry,Low,Few,Curled leaves,No wind,Not sure,Small,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Other,Early,Normal,Too much,None,Spots / color change,Strong,Not sure,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Late,Hard-Dry,Too much,Many,Spots / color change,No wind,Heavy rain,Large,No Spray - Monitor,0.24
+2025-11-21,12:29 AM,Rice,Early,Dry,Too much,Many,Curled leaves,No wind,Clear,Large,Spray (patch only),0.8
+2025-11-21,12:29 AM,Other,Late,Normal,Too much,Not sure,Curled leaves,Light,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Mid,Wet,Very low,Many,Curled leaves,Strong,Not sure,Large,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Rice,Late,Wet,Very low,Not sure,Spots / color change,No wind,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Mid,Normal,Normal,Few,Curled leaves,No wind,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Early,Normal,Very low,Not sure,Holes / eaten,No wind,Cloudy,Small,Monitor & Spot-Treat,0.54
+2025-11-21,12:29 AM,Rice,Mid,Hard-Dry,Normal,Not sure,Leaves normal,No wind,Light rain,Large,No Spray - Monitor,0.32
+2025-11-21,12:29 AM,Other,Early,Wet,Very low,Not sure,Spots / color change,Light,Cloudy,Small,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Rice,Early,Dry,Too much,Not sure,Spots / color change,No wind,Clear,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Other,Mid,Normal,Low,Not sure,Spots / color change,Light,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Late,Wet,Low,Not sure,Spots / color change,No wind,Cloudy,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Vegetables,Early,Dry,Too much,None,Leaves normal,Light,Cloudy,Medium,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Vegetables,Late,Normal,Normal,None,Curled leaves,Strong,Not sure,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Late,Hard-Dry,Normal,None,Leaves normal,Strong,Light rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Early,Normal,Normal,None,Holes / eaten,Strong,Clear,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Other,Mid,Normal,Very low,Not sure,Spots / color change,No wind,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Late,Wet,Low,Many,Holes / eaten,No wind,Heavy rain,Large,No Spray - Monitor,0.25
+2025-11-21,12:29 AM,Maize,Late,Hard-Dry,Normal,Not sure,Holes / eaten,No wind,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Mid,Dry,Very low,Few,Holes / eaten,Strong,Cloudy,Large,No Spray - Monitor,0.21
+2025-11-21,12:29 AM,Cotton,Early,Normal,Low,Not sure,Holes / eaten,No wind,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Late,Wet,Normal,None,Leaves normal,Strong,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Early,Hard-Dry,Low,None,Curled leaves,Light,Clear,Large,Monitor & Spot-Treat,0.52
+2025-11-21,12:29 AM,Vegetables,Late,Dry,Too much,Many,Curled leaves,No wind,Light rain,Large,Spray (patch only),0.8
+2025-11-21,12:29 AM,Rice,Early,Hard-Dry,Low,None,Spots / color change,Strong,Light rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Mid,Hard-Dry,Normal,Not sure,Leaves normal,No wind,Light rain,Small,No Spray - Monitor,0.32
+2025-11-21,12:29 AM,Wheat,Early,Normal,Low,Not sure,Leaves normal,No wind,Clear,Large,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Other,Mid,Wet,Too much,Not sure,Leaves normal,No wind,Clear,Large,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Maize,Early,Wet,Very low,None,Leaves normal,Light,Cloudy,Medium,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Maize,Mid,Dry,Very low,Not sure,Spots / color change,Light,Clear,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Wheat,Late,Wet,Very low,Many,Spots / color change,Strong,Clear,Small,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Other,Early,Dry,Too much,Many,Curled leaves,Strong,Clear,Medium,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Vegetables,Early,Dry,Normal,None,Holes / eaten,Light,Not sure,Small,Monitor & Spot-Treat,0.54
+2025-11-21,12:29 AM,Other,Early,Hard-Dry,Very low,Many,Curled leaves,Light,Not sure,Large,Spray (patch only),0.85
+2025-11-21,12:29 AM,Vegetables,Early,Wet,Low,Many,Curled leaves,No wind,Light rain,Medium,Spray (patch only),0.8
+2025-11-21,12:29 AM,Other,Mid,Wet,Low,Many,Curled leaves,Light,Not sure,Medium,Spray (patch only),0.8
+2025-11-21,12:29 AM,Other,Early,Dry,Too much,None,Holes / eaten,Strong,Light rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Early,Wet,Normal,Not sure,Holes / eaten,Light,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Other,Late,Hard-Dry,Normal,Not sure,Leaves normal,Light,Not sure,Medium,No Spray - Monitor,0.32
+2025-11-21,12:29 AM,Rice,Late,Normal,Very low,Many,Spots / color change,No wind,Not sure,Small,Spray (patch only),0.8
+2025-11-21,12:29 AM,Maize,Late,Normal,Very low,Many,Leaves normal,No wind,Not sure,Medium,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Vegetables,Early,Dry,Very low,Many,Curled leaves,Strong,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Late,Dry,Very low,Few,Leaves normal,No wind,Not sure,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Cotton,Mid,Normal,Too much,Many,Curled leaves,Light,Cloudy,Medium,Spray (patch only),0.8
+2025-11-21,12:29 AM,Other,Mid,Dry,Too much,None,Spots / color change,Strong,Light rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Early,Dry,Low,None,Curled leaves,Strong,Not sure,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Late,Dry,Too much,Few,Leaves normal,Strong,Light rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Mid,Wet,Normal,Not sure,Spots / color change,No wind,Light rain,Small,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Other,Early,Hard-Dry,Normal,Not sure,Holes / eaten,Light,Clear,Medium,Spray (patch only),0.72
+2025-11-21,12:29 AM,Wheat,Mid,Hard-Dry,Very low,Not sure,Leaves normal,No wind,Light rain,Small,No Spray - Monitor,0.32
+2025-11-21,12:29 AM,Wheat,Early,Hard-Dry,Low,Not sure,Holes / eaten,Light,Light rain,Medium,Spray (patch only),0.72
+2025-11-21,12:29 AM,Vegetables,Early,Dry,Too much,Few,Spots / color change,Strong,Light rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Other,Early,Hard-Dry,Normal,Few,Spots / color change,No wind,Not sure,Medium,Spray (patch only),0.75
+2025-11-21,12:29 AM,Vegetables,Late,Normal,Very low,Few,Spots / color change,No wind,Cloudy,Medium,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Wheat,Mid,Dry,Very low,None,Leaves normal,Light,Not sure,Large,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Rice,Early,Dry,Normal,None,Holes / eaten,Strong,Cloudy,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Late,Normal,Too much,Not sure,Leaves normal,No wind,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Early,Hard-Dry,Very low,Many,Curled leaves,Light,Heavy rain,Large,No Spray - Monitor,0.24
+2025-11-21,12:29 AM,Wheat,Mid,Wet,Low,None,Curled leaves,Light,Cloudy,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Wheat,Mid,Wet,Low,None,Curled leaves,Strong,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Late,Dry,Normal,Few,Curled leaves,Strong,Clear,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Mid,Normal,Too much,Few,Holes / eaten,Light,Cloudy,Large,Spray (patch only),0.78
+2025-11-21,12:29 AM,Rice,Mid,Hard-Dry,Normal,Not sure,Holes / eaten,No wind,Not sure,Large,Spray (patch only),0.72
+2025-11-21,12:29 AM,Maize,Mid,Dry,Normal,Not sure,Curled leaves,Strong,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Late,Wet,Normal,None,Leaves normal,Strong,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Early,Wet,Too much,Many,Spots / color change,No wind,Not sure,Medium,Spray (patch only),0.8
+2025-11-21,12:29 AM,Cotton,Mid,Dry,Low,None,Curled leaves,Strong,Cloudy,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Early,Dry,Very low,Not sure,Spots / color change,Strong,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Early,Normal,Very low,Not sure,Holes / eaten,Light,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Early,Wet,Low,Many,Curled leaves,Strong,Not sure,Small,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Cotton,Mid,Normal,Normal,None,Spots / color change,Light,Clear,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Wheat,Mid,Wet,Very low,Few,Curled leaves,No wind,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Late,Wet,Low,None,Leaves normal,No wind,Light rain,Medium,No Spray - Monitor,0.3
+2025-11-21,12:29 AM,Cotton,Early,Hard-Dry,Very low,Many,Spots / color change,Light,Cloudy,Small,Spray (patch only),0.85
+2025-11-21,12:29 AM,Wheat,Late,Wet,Too much,Many,Curled leaves,No wind,Heavy rain,Medium,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Vegetables,Early,Normal,Very low,Not sure,Leaves normal,Strong,Clear,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Late,Dry,Normal,Not sure,Holes / eaten,Strong,Clear,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Early,Normal,Low,Many,Curled leaves,No wind,Cloudy,Large,Spray (patch only),0.8
+2025-11-21,12:29 AM,Wheat,Mid,Dry,Too much,Not sure,Curled leaves,Strong,Cloudy,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Early,Dry,Very low,Few,Spots / color change,Light,Cloudy,Medium,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Rice,Late,Wet,Low,None,Leaves normal,Strong,Cloudy,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Late,Normal,Very low,Few,Leaves normal,Strong,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Late,Wet,Too much,Few,Holes / eaten,No wind,Clear,Large,Spray (patch only),0.78
+2025-11-21,12:29 AM,Rice,Mid,Dry,Too much,Many,Spots / color change,Light,Light rain,Large,Spray (patch only),0.8
+2025-11-21,12:29 AM,Maize,Mid,Dry,Too much,Many,Holes / eaten,Strong,Light rain,Medium,No Spray - Monitor,0.25
+2025-11-21,12:29 AM,Vegetables,Mid,Dry,Low,Many,Curled leaves,Strong,Light rain,Large,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Wheat,Mid,Normal,Very low,Many,Leaves normal,Strong,Cloudy,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Late,Normal,Normal,None,Curled leaves,Light,Not sure,Large,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Vegetables,Mid,Dry,Too much,Not sure,Spots / color change,Strong,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Mid,Normal,Normal,None,Spots / color change,Strong,Light rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Early,Hard-Dry,Very low,Many,Leaves normal,Strong,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Mid,Dry,Very low,None,Spots / color change,No wind,Not sure,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Rice,Early,Hard-Dry,Very low,None,Holes / eaten,Strong,Not sure,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Early,Wet,Too much,Not sure,Holes / eaten,No wind,Not sure,Small,Monitor & Spot-Treat,0.54
+2025-11-21,12:29 AM,Wheat,Mid,Hard-Dry,Low,Few,Curled leaves,Strong,Not sure,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Mid,Normal,Too much,Many,Leaves normal,Light,Cloudy,Large,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Cotton,Late,Hard-Dry,Low,Not sure,Spots / color change,No wind,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Early,Normal,Too much,Many,Spots / color change,Light,Heavy rain,Medium,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Cotton,Mid,Normal,Low,Few,Spots / color change,Strong,Clear,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Late,Wet,Very low,Many,Curled leaves,No wind,Clear,Large,Spray (patch only),0.8
+2025-11-21,12:29 AM,Other,Mid,Normal,Low,Many,Leaves normal,No wind,Clear,Small,Monitor & Spot-Treat,0.56
+2025-11-21,12:29 AM,Rice,Early,Dry,Low,Few,Holes / eaten,No wind,Heavy rain,Small,No Spray - Monitor,0.21
+2025-11-21,12:29 AM,Maize,Early,Wet,Very low,Few,Holes / eaten,No wind,Heavy rain,Large,No Spray - Monitor,0.21
+2025-11-21,12:29 AM,Maize,Late,Hard-Dry,Very low,Many,Leaves normal,No wind,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Other,Mid,Hard-Dry,Low,Not sure,Spots / color change,Light,Light rain,Medium,Monitor & Spot-Treat,0.52
+2025-11-21,12:29 AM,Rice,Mid,Wet,Normal,None,Leaves normal,Light,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Early,Normal,Low,None,Spots / color change,Light,Light rain,Medium,No Spray - Monitor,0.34
+2025-11-21,12:29 AM,Cotton,Early,Hard-Dry,Low,Few,Leaves normal,No wind,Heavy rain,Medium,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Maize,Early,Normal,Too much,Few,Holes / eaten,Strong,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Early,Normal,Normal,None,Curled leaves,No wind,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Vegetables,Early,Wet,Very low,Many,Spots / color change,Strong,Clear,Small,No Spray - Monitor,0.22
+2025-11-21,12:29 AM,Other,Mid,Normal,Low,None,Leaves normal,No wind,Heavy rain,Small,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Cotton,Mid,Dry,Too much,None,Curled leaves,Light,Heavy rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Rice,Late,Dry,Very low,None,Holes / eaten,Strong,Light rain,Large,No Spray - Monitor,0.2
+2025-11-21,12:29 AM,Wheat,Mid,Wet,Very low,None,Spots / color change,Light,Not sure,Large,No Spray - Monitor,0.34

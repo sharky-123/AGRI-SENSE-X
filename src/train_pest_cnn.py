@@ -1,9 +1,6 @@
 import os
-
-# FIX FOR CORRUPTED IMAGES -------------
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
-# ---------------------------------------
 
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator

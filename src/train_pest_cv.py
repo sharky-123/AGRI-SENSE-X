@@ -1,16 +1,9 @@
-# train_pest_cv.py
-# Train a simple image classifier (EfficientNetB0 backbone) on your pest dataset.
-# Uses Keras ImageDataGenerator for augment + saves a Keras .h5 model and label mapping.
-
 import os
 import json
-import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.applications import EfficientNetB0
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping
 
 ROOT = r"C:\agri-sense-x"
@@ -23,13 +16,11 @@ BATCH = 16
 EPOCHS = 20
 SEED = 42
 
-
 classes = sorted([d for d in os.listdir(DATA_DIR) if os.path.isdir(os.path.join(DATA_DIR, d))])
 if not classes:
     raise SystemExit(f"No class folders found in {DATA_DIR} — check path.")
 
 print("Found classes:", classes)
-
 
 train_aug = ImageDataGenerator(
     rescale=1./255,
@@ -68,9 +59,8 @@ num_classes = train_gen.num_classes
 print("Num classes:", num_classes)
 print("Train steps:", train_gen.samples, "Val steps:", val_gen.samples)
 
-# 3) Build model (EfficientNetB0 backbone)
 backbone = EfficientNetB0(weights="imagenet", include_top=False, input_shape=(IMG_SIZE[0], IMG_SIZE[1], 3))
-backbone.trainable = False  # freeze backbone first
+backbone.trainable = False
 
 model = models.Sequential([
     backbone,
@@ -89,7 +79,7 @@ model.summary()
 
 ckpt = ModelCheckpoint(os.path.join(MODEL_DIR, "pest_model_best.h5"), save_best_only=True, monitor="val_accuracy", verbose=1)
 rlr = ReduceLROnPlateau(monitor="val_loss", factor=0.5, patience=3, verbose=1)
-es  = EarlyStopping(monitor="val_loss", patience=7, restore_best_weights=True, verbose=1)
+es = EarlyStopping(monitor="val_loss", patience=7, restore_best_weights=True, verbose=1)
 
 history = model.fit(
     train_gen,
@@ -115,10 +105,8 @@ model.fit(
     verbose=1
 )
 
-
 model.save(os.path.join(MODEL_DIR, "pest_model_final.h5"))
 print("Saved model to", os.path.join(MODEL_DIR, "pest_model_final.h5"))
-
 
 label_map = {v: k for k, v in train_gen.class_indices.items()}
 with open(os.path.join(MODEL_DIR, "pest_label_map.json"), "w") as f:

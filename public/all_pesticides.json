@@ -1,0 +1,530 @@
+[
+  {
+    "name": "Adristyrannus",
+    "chemicals": "Acephate, Malathion, Permethrin"
+  },
+  {
+    "name": "Aleurocanthus spiniferus",
+    "chemicals": "Imidacloprid, Acetamiprid, Chlorpyrifos"
+  },
+  {
+    "name": "alfalfa plant bug",
+    "chemicals": "Imidacloprid, Lambda-cyhalothrin, Chlorpyrifos"
+  },
+  {
+    "name": "alfalfa seed chalcid",
+    "chemicals": "Azadirachtin, Imidacloprid, Spinosad"
+  },
+  {
+    "name": "alfalfa weevil",
+    "chemicals": "Chlorpyrifos, Cyfluthrin, Carbaryl"
+  },
+  {
+    "name": "Ampelophaga",
+    "chemicals": "Chlorpyrifos, Methoxyfenozide, Spinosad"
+  },
+  {
+    "name": "aphids",
+    "chemicals": "Imidacloprid, Acetamiprid, Thiamethoxam"
+  },
+  {
+    "name": "Aphis citricola Vander Goot",
+    "chemicals": "Imidacloprid, Thiacloprid, Thiamethoxam"
+  },
+  {
+    "name": "Apolygus lucorum",
+    "chemicals": "Lambda-cyhalothrin, Chlorpyrifos, Imidacloprid"
+  },
+  {
+    "name": "army worm",
+    "chemicals": "Chlorpyrifos, Lambda-cyhalothrin, Bifenthrin"
+  },
+  {
+    "name": "asiatic rice borer",
+    "chemicals": "Emamectin benzoate, Fipronil, Chlorantraniliprole"
+  },
+  {
+    "name": "Bactrocera tsuneonis",
+    "chemicals": "Spinosad, Malathion, Dimethoate"
+  },
+  {
+    "name": "beet army worm",
+    "chemicals": "Bacillus thuringiensis, Methoxyfenozide, Spinosad"
+  },
+  {
+    "name": "beet fly",
+    "chemicals": "Carbaryl, Methomyl, Dimethoate"
+  },
+  {
+    "name": "Beet spot flies",
+    "chemicals": "Dimethoate, Chlorpyrifos, Carbaryl"
+  },
+  {
+    "name": "beet weevil",
+    "chemicals": "Chlorpyrifos, Carbaryl, Diazinon"
+  },
+  {
+    "name": "beetle",
+    "chemicals": "Imidacloprid, Carbaryl, Malathion, Cypermethrin"
+  },
+  {
+    "name": "bird cherry-oataphid",
+    "chemicals": "Imidacloprid, Thiamethoxam, Dinotefuran, Acetamiprid"
+  },
+  {
+    "name": "black cutworm",
+    "chemicals": "Chlorantraniliprole, Flubendiamide, Emamectin benzoate"
+  },
+  {
+    "name": "Black hairy",
+    "chemicals": "Carbaryl, Malathion, Permethrin, Cyfluthrin"
+  },
+  {
+    "name": "blister beetle",
+    "chemicals": "Carbaryl, Malathion, Pyrethrin, Permethrin"
+  },
+  {
+    "name": "bollworm",
+    "chemicals": "Chlorantraniliprole, Emamectin benzoate, Spinosad, Indoxacarb"
+  },
+  {
+    "name": "Brevipoalpus lewisi McGregor",
+    "chemicals": "Abamectin, Bifenazate, Fenpyroximate, Spiromesifen"
+  },
+  {
+    "name": "brown plant hopper",
+    "chemicals": "Imidacloprid, Chlorpyrifos, Buprofezin, Thiamethoxam"
+  },
+  {
+    "name": "cabbage army worm",
+    "chemicals": "Bacillus thuringiensis, Spinosad, Methomyl, Chlorantraniliprole"
+  },
+  {
+    "name": "cerodonta denticornis",
+    "chemicals": "Imidacloprid, Thiacloprid, Thiamethoxam, Dinotefuran"
+  },
+  {
+    "name": "Ceroplastes rubens",
+    "chemicals": "Imidacloprid, Acetamiprid, Buprofezin, Thiamethoxam"
+  },
+  {
+    "name": "Chlumetia transversa",
+    "chemicals": "Imidacloprid, Chlorpyrifos, Cypermethrin, Acetamiprid"
+  },
+  {
+    "name": "Chrysomphalus aonidum",
+    "chemicals": "Imidacloprid, Abamectin, Acetamiprid, Buprofezin"
+  },
+  {
+    "name": "Cicadella viridis",
+    "chemicals": "Imidacloprid, Thiacloprid, Dinotefuran, Thiamethoxam"
+  },
+  {
+    "name": "Cicadellidae",
+    "chemicals": "Imidacloprid, Thiacloprid, Dinotefuran, Thiamethoxam"
+  },
+  {
+    "name": "Colomerus vitis",
+    "chemicals": "Bifenazate, Fenpyroximate, Abamectin, Hexythiazox"
+  },
+  {
+    "name": "corn borer",
+    "chemicals": "Chlorpyrifos, Emamectin benzoate, Lambda-cyhalothrin, Spinosad"
+  },
+  {
+    "name": "corn earworm",
+    "chemicals": "Bacillus thuringiensis, Carbaryl, Cypermethrin"
+  },
+  {
+    "name": "cutworm",
+    "chemicals": "Chlorpyrifos, Diazinon, Methomyl"
+  },
+  {
+    "name": "Dacus dorsalis(Hendel)",
+    "chemicals": "Malathion, Diazinon, Fenthion"
+  },
+  {
+    "name": "Dasineura sp",
+    "chemicals": "Imidacloprid, Acephate, Chlorpyrifos"
+  },
+  {
+    "name": "Deporaus marginatus Pascoe",
+    "chemicals": "Carbaryl, Chlorpyrifos, Imidacloprid"
+  },
+  {
+    "name": "english grain aphid",
+    "chemicals": "Imidacloprid, Lambda-cyhalothrin, Pyrethroids"
+  },
+  {
+    "name": "Erythroneura apicalis",
+    "chemicals": "Carbaryl, Diazinon, Malathion"
+  },
+  {
+    "name": "fall armyworm",
+    "chemicals": "Bacillus thuringiensis, Chlorantraniliprole, Spinosad"
+  },
+  {
+    "name": "Field Cricket",
+    "chemicals": "Carbaryl, Permethrin, Cyfluthrin"
+  },
+  {
+    "name": "flax budworm",
+    "chemicals": "Chlorpyrifos, Methomyl, Pyrethroids"
+  },
+  {
+    "name": "flea beetle",
+    "chemicals": "Imidacloprid, Thiamethoxam, Pyrethroids"
+  },
+  {
+    "name": "Fruit piercing moth",
+    "chemicals": "Carbaryl, Malathion, Pyrethroids"
+  },
+  {
+    "name": "Gall fly",
+    "chemicals": "Chlorpyrifos, Malathion, Methomyl"
+  },
+  {
+    "name": "grain spreader thrips",
+    "chemicals": "Acephate, Imidacloprid, Thiamethoxam"
+  },
+  {
+    "name": "grasshopper",
+    "chemicals": "Carbaryl, Malathion, Pyrethroids"
+  },
+  {
+    "name": "green bug",
+    "chemicals": "Carbaryl, Malathion, Pyrethroids"
+  },
+  {
+    "name": "grub",
+    "chemicals": "Chlorpyrifos, Imidacloprid, Thiamethoxam"
+  },
+  {
+    "name": "Icerya purchasi Maskell",
+    "chemicals": "Imidacloprid, Dinotefuran, Acetamiprid"
+  },
+  {
+    "name": "Indigo caterpillar",
+    "chemicals": "Carbaryl, Imidacloprid, Acephate"
+  },
+  {
+    "name": "Jute aphid",
+    "chemicals": "Thiamethoxam, Imidacloprid, Clothianidin"
+  },
+  {
+    "name": "Jute hairy",
+    "chemicals": "Imidacloprid, Chlorpyrifos, Lambda-cyhalothrin"
+  },
+  {
+    "name": "Jute red mite",
+    "chemicals": "Bifenthrin, Spiromesifen, Fenpropathrin"
+  },
+  {
+    "name": "Jute semilooper",
+    "chemicals": "Chlorpyrifos, Emamectin benzoate, Indoxacarb"
+  },
+  {
+    "name": "Jute stem girdler",
+    "chemicals": "Chlorpyrifos, Carbofuran, Phorate"
+  },
+  {
+    "name": "Jute Stem Weevil",
+    "chemicals": "Carbaryl, Chlorpyrifos, Lambda-cyhalothrin"
+  },
+  {
+    "name": "Jute stick insect",
+    "chemicals": "Imidacloprid, Thiamethoxam, Chlorpyrifos"
+  },
+  {
+    "name": "large cutworm",
+    "chemicals": "Bacillus thuringiensis, Chlorpyrifos, Lambda-cyhalothrin"
+  },
+  {
+    "name": "Lawana imitata Melichar",
+    "chemicals": "Imidacloprid, Buprofezin, Thiamethoxam"
+  },
+  {
+    "name": "Leaf beetle",
+    "chemicals": "Chlorpyrifos, Imidacloprid, Acephate"
+  },
+  {
+    "name": "legume blister beetle",
+    "chemicals": "Carbaryl, Chlorpyrifos, Lambda-cyhalothrin"
+  },
+  {
+    "name": "Limacodidae",
+    "chemicals": "Bacillus thuringiensis, Chlorpyrifos, Carbaryl"
+  },
+  {
+    "name": "Locust",
+    "chemicals": "Chlorpyrifos, Deltamethrin, Fenitrothion"
+  },
+  {
+    "name": "Locustoidea",
+    "chemicals": "Chlorpyrifos, Deltamethrin, Fenitrothion"
+  },
+  {
+    "name": "longlegged spider mite",
+    "chemicals": "Abamectin, Bifenazate, Chlorfenapyr"
+  },
+  {
+    "name": "Lycorma delicatula",
+    "chemicals": "Dinotefuran, Imidacloprid, Thiamethoxam"
+  },
+  {
+    "name": "lytta polita",
+    "chemicals": "Carbaryl, Diazinon, Malathion"
+  },
+  {
+    "name": "Mango flat beak leafhopper",
+    "chemicals": "Imidacloprid, Thiamethoxam, Dinotefuran"
+  },
+  {
+    "name": "meadow moth",
+    "chemicals": "Bacillus thuringiensis, Chlorpyrifos, Lambda-cyhalothrin"
+  },
+  {
+    "name": "Mealybug",
+    "chemicals": "Imidacloprid, Clothianidin, Thiamethoxam"
+  },
+  {
+    "name": "Miridae",
+    "chemicals": "Buprofezin, Clothianidin, Imidacloprid"
+  },
+  {
+    "name": "mites",
+    "chemicals": "Abamectin, Bifenazate, Chlorfenapyr"
+  },
+  {
+    "name": "mole cricket",
+    "chemicals": "Bifenthrin, Carbaryl, Imidacloprid"
+  },
+  {
+    "name": "Nipaecoccus vastalor",
+    "chemicals": "Acetamiprid, Imidacloprid, Dinotefuran"
+  },
+  {
+    "name": "odontothrips loti",
+    "chemicals": "Abamectin, Emamectin benzoate, Spinosad"
+  },
+  {
+    "name": "oides decempunctata",
+    "chemicals": "Abamectin, Chlorfenapyr, Pyridaben"
+  },
+  {
+    "name": "paddy stem maggot",
+    "chemicals": "Carbofuran, Chlorpyrifos, Diazinon"
+  },
+  {
+    "name": "Panonchus citri McGregor",
+    "chemicals": "Bifenazate, Spirodiclofen, Pyridaben"
+  },
+  {
+    "name": "Papilio xuthus",
+    "chemicals": "Bacillus thuringiensis, Spinosad, Methomyl"
+  },
+  {
+    "name": "parathrene regalis",
+    "chemicals": "Bacillus thuringiensis, Chlorpyrifos, Imidacloprid"
+  },
+  {
+    "name": "Parlatoria zizyphus Lucus",
+    "chemicals": "Chlorpyrifos, Imidacloprid, Spirotetramat"
+  },
+  {
+    "name": "peach borer",
+    "chemicals": "Chlorpyrifos, Imidacloprid, Lambda-cyhalothrin"
+  },
+  {
+    "name": "penthaleus major",
+    "chemicals": "Chlorpyrifos, Fenpropathrin, Lambda-cyhalothrin"
+  },
+  {
+    "name": "Phyllocnistis citrella Stainton",
+    "chemicals": "Abamectin, Emamectin benzoate, Spinosad"
+  },
+  {
+    "name": "Phyllocoptes oleiverus ashmead",
+    "chemicals": "Bifenazate, Abamectin, Spiromesifen"
+  },
+  {
+    "name": "Pieris canidia",
+    "chemicals": "Bacillus thuringiensis, Cypermethrin, Neem oil"
+  },
+  {
+    "name": "Pod borer",
+    "chemicals": "Emamectin benzoate, Indoxacarb, Spinosad"
+  },
+  {
+    "name": "Polyphagotars onemus latus",
+    "chemicals": "Acetamiprid, Bifenazate, Spiromesifen"
+  },
+  {
+    "name": "Potosiabre vitarsis",
+    "chemicals": "Chlorantraniliprole, Emamectin benzoate, Spinosad"
+  },
+  {
+    "name": "Prodenia litura",
+    "chemicals": "Chlorantraniliprole, Emamectin benzoate, Spinosad"
+  },
+  {
+    "name": "Pseudococcus comstocki Kuwana",
+    "chemicals": "Acetamiprid, Bifenthrin, Imidacloprid"
+  },
+  {
+    "name": "red spider",
+    "chemicals": "Abamectin, Bifenazate, Spiromesifen"
+  },
+  {
+    "name": "Rhytidodera bowrinii white",
+    "chemicals": "Acephate, Imidacloprid, Methomyl"
+  },
+  {
+    "name": "rice gall midge",
+    "chemicals": "Cartap hydrochloride, Chlorpyrifos, Fipronil"
+  },
+  {
+    "name": "rice leaf caterpillar",
+    "chemicals": "Cartap hydrochloride, Chlorantraniliprole, Emamectin benzoate"
+  },
+  {
+    "name": "rice leaf roller",
+    "chemicals": "Chlorpyrifos, Cypermethrin, Indoxacarb"
+  },
+  {
+    "name": "rice leafhopper",
+    "chemicals": "Imidacloprid, Thiamethoxam, Chlorpyrifos"
+  },
+  {
+    "name": "rice shell pest",
+    "chemicals": "Cartap, Methomyl, Carbaryl"
+  },
+  {
+    "name": "Rice Stemfly",
+    "chemicals": "Neonicotinoids, Fipronil, Imidacloprid"
+  },
+  {
+    "name": "rice water weevil",
+    "chemicals": "Carbofuran, Chlorpyrifos, Imidacloprid"
+  },
+  {
+    "name": "Salurnis marginella Guerr",
+    "chemicals": "Methomyl, Chlorpyrifos, Carbaryl"
+  },
+  {
+    "name": "sawfly",
+    "chemicals": "Malathion, Carbaryl, Cypermethrin"
+  },
+  {
+    "name": "Scirtothrips dorsalis Hood",
+    "chemicals": "Spinosad, Abamectin, Imidacloprid"
+  },
+  {
+    "name": "sericaorient alismots chulsky",
+    "chemicals": "Thiamethoxam, Clothianidin, Imidacloprid"
+  },
+  {
+    "name": "small brown plant hopper",
+    "chemicals": "Imidacloprid, Chlorpyrifos, Acephate"
+  },
+  {
+    "name": "Spilosoma Obliqua",
+    "chemicals": "Bacillus thuringiensis, Cypermethrin, Chlorantraniliprole"
+  },
+  {
+    "name": "stem borer",
+    "chemicals": "Neonicotinoids, Pyrethroids, Chlorantraniliprole"
+  },
+  {
+    "name": "Sternochetus frigidus",
+    "chemicals": "Chlorpyrifos, Carbaryl, Imidacloprid"
+  },
+  {
+    "name": "tarnished plant bug",
+    "chemicals": "Imidacloprid, Lambda-cyhalothrin, Methomyl"
+  },
+  {
+    "name": "Termite",
+    "chemicals": "Chlorpyrifos, Imidacloprid, Fipronil"
+  },
+  {
+    "name": "Termite odontotermes (Rambur)",
+    "chemicals": "Chlorpyrifos, Imidacloprid, Fipronil"
+  },
+  {
+    "name": "Tetradacus c Bactrocera minax",
+    "chemicals": "Malathion, Spinosad, Imidacloprid"
+  },
+  {
+    "name": "therioaphis maculata Buckton",
+    "chemicals": "Imidacloprid, Acetamiprid, Thiamethoxam"
+  },
+  {
+    "name": "Thrips",
+    "chemicals": "Spinosad, Abamectin, Imidacloprid"
+  },
+  {
+    "name": "Toxoptera aurantii",
+    "chemicals": "Imidacloprid, Thiamethoxam, Chlorpyrifos"
+  },
+  {
+    "name": "Toxoptera citricidus",
+    "chemicals": "Imidacloprid, Thiamethoxam, Chlorpyrifos"
+  },
+  {
+    "name": "Trialeurodes vaporariorum",
+    "chemicals": "Neonicotinoids, Pyrethroids, Imidacloprid"
+  },
+  {
+    "name": "Unaspis yanonensis",
+    "chemicals": "Imidacloprid, Chlorpyrifos, Abamectin"
+  },
+  {
+    "name": "Viteus vitifoliae",
+    "chemicals": "Pyrethroids, Organophosphates, Neonicotinoids"
+  },
+  {
+    "name": "wheat blossom midge",
+    "chemicals": "Chlorpyrifos, Imidacloprid, Lambda-cyhalothrin"
+  },
+  {
+    "name": "wheat phloeothrips",
+    "chemicals": "Imidacloprid, Thiamethoxam, Chlorpyrifos"
+  },
+  {
+    "name": "wheat sawfly",
+    "chemicals": "Chlorpyrifos, Acetamiprid, Imidacloprid"
+  },
+  {
+    "name": "white backed plant hopper",
+    "chemicals": "Imidacloprid, Thiamethoxam, Chlorpyrifos"
+  },
+  {
+    "name": "white margined moth",
+    "chemicals": "Chlorantraniliprole, Spinosad, Bacillus thuringiensis"
+  },
+  {
+    "name": "whitefly",
+    "chemicals": "Imidacloprid, Thiamethoxam, Pyrethroids"
+  },
+  {
+    "name": "wireworm",
+    "chemicals": "Chlorpyrifos, Imidacloprid, Fipronil"
+  },
+  {
+    "name": "Xylotrechus",
+    "chemicals": "Methoxyfenozide, Chlorpyrifos, Fipronil"
+  },
+  {
+    "name": "yellow cutworm",
+    "chemicals": "Chlorpyrifos, Methomyl, Carbaryl"
+  },
+  {
+    "name": "Yellow Mite",
+    "chemicals": "Spiromesifen, Abamectin, Fenazaquin"
+  },
+  {
+    "name": "yellow rice borer",
+    "chemicals": "Chlorpyrifos, Neonicotinoids, Fipronil"
+  }
+]
